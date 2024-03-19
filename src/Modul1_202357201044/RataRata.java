@@ -12,10 +12,11 @@ public class RataRata {
             for (int b = 0; b < data[0].length; b++) {
                 System.out.print(data[a][b] + " ");
                 JumlahData += data[a][b];
-                JumlahElment++;
+                
             }
             System.out.println();
         }
+        JumlahElment = data.length*data[0].length;
         double rataRATA = JumlahData / JumlahElment;
         System.out.println("Total Dari Array data \t\t: " + JumlahData);
         System.out.println("Jumlah Dari Elment Array data \t: " + JumlahElment);
