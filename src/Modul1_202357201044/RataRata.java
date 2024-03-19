@@ -17,9 +17,9 @@ public class RataRata {
             System.out.println();
         }
         double rataRATA = JumlahData / JumlahElment;
-        System.out.println("Total Dari Array 2 dimensi \t\t: " + JumlahData);
-        System.out.println("Jumlah Dari Elment Array 2 dimensi \t: " + JumlahElment);
-        System.out.println("Rata-rata Dari Array Data \t\t: " + rataRATA);
+        System.out.println("Total Dari Array data \t\t: " + JumlahData);
+        System.out.println("Jumlah Dari Elment Array data \t: " + JumlahElment);
+        System.out.println("Rata-rata Dari Array Data \t: " + rataRATA);
 
     }
 }
