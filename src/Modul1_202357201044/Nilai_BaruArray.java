@@ -11,12 +11,11 @@ public class Nilai_BaruArray {
 
         JOptionPane.showInternalConfirmDialog(null, Arrays.deepToString(data));
 
-        int bariss = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Baris : "));
+        int baris = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Baris : "));
 
-        int kolomm = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Kolom : "));
+        int kolom = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Kolom : "));
 
-        int baris = bariss - 1;
-        int kolom = kolomm - 1;
+       
 
         int nilaibaru = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Nilai baru : "));
 
