@@ -4,17 +4,18 @@ public class NamaAlamatTelepon {
 
     public static void main(String[] args) {
         String data[][] = {
-            {"NAMA\t\t", "ALAMAT\t\t", "TELEPON\n"},
-            {"BDUL\t\t", "Kediri\t\t", "085646668991"},
-            {"KUSNO\t\t", "Trenggalek\t", "085646668992"},
-            {"PONIRAN\t\t", "Bojonegoro\t", "085646668999"}
+            {"ABDUL", "085646668991", "Kediri"},
+            {"KUSNO","085646668992", "Trenggalek"},
+            {"PONIRAN", "085646668999","Bojonegoro"}};
+
+        System.out.println("NAMA\t\tTELEPON\t\t\tKOTA\n");
+        for (String[] ke :data){
+            System.out.print(ke[0]+"\t\t");
+            System.out.print(ke[1]+"\t\t");
+            System.out.print(ke[2]+"\t\t");
+            System.out.println("");
         };
-        for (int a = 0; a < data.length; a++) {
-            for (int b = 0; b < data[a].length; b++) {
-                System.out.print(data[a][b] + " ");
-            }
-            System.out.println();
-        }
+        
     }
 
 }
