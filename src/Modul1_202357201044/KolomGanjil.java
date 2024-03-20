@@ -8,8 +8,8 @@ public class KolomGanjil {
 
         System.out.println("Kolom Ganjil : ");
         for (int a = 0; a < data.length; a++) {
-            for (int b = 0; b < data[0].length; b++) {
-                if (b % 2 == 0) {
+            for (int b = 0; b < data[a].length; b++) {
+                if (b % 2 == 1) {
                     System.out.print(data[a][b] + " ");
                     JumlahData += data[a][b];
                 }
